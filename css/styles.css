@@ -76,6 +76,9 @@
 }
 
 body {
+  background-image: url('../assets/img/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -156,6 +159,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #343a40;
 }
 
 abbr[title],
@@ -176,6 +180,7 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  color: #343a40;
 }
 
 ol,
@@ -11308,6 +11313,7 @@ h1, .h1 {
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
+  color: #343a40;
 }
 
 .subheading {
