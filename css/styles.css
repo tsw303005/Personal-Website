@@ -76,9 +76,11 @@
 }
 
 body {
-  background-image: url('../assets/img/background.png');
+  background-image: url('../assets/img/back1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
